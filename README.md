@@ -1,6 +1,6 @@
 # IIT Pokerbots 2026 (Sponsored by Jane Street) - Rank 44 (India)
 
-This repository contains the source code, game engine, and bot logic for my submission to the 2026 Pokerbots Competition. Our team achieved a national rank of **44th across India**.
+This repository contains the source code, game engine, and bot logic for our submission to the 2026 Pokerbots Competition. Our team **Entangled_Pair**, comprising of my teammate, [Aman Srivastava](https://github.com/Aman02032006) and I achieved a national rank of **44th across India**.
 
 ## Strategy & Implementation
 Our bot's logic relies on robust statistical evaluation, opponent modeling, and dynamic time management to make mathematically sound decisions in real-time. To ensure optimal performance preflop, we bypassed heavy live calculations by pre-computing starting hand strengths using `MonteCarloEquityEstimation.py`. These millions of simulated runouts are embedded directly into the bot as a fast lookup dictionary, allowing instant and highly accurate preflop decisions.
