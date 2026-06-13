@@ -16,6 +16,8 @@ For postflop play, the bot calculates its win probability against this refined B
 ## Project Structure
 * `bots/`: Contains all bot iterations, from baseline opponents (`explBot`, `calling_station_bot`) to our final competitive bot (`xbot2.py`).
 * `engine/`: The core game engine and configuration files used to simulate matches.
+* `utils/`: Strategic tools including our Monte Carlo equity estimator.
+* `pkbot/`: Boilerplate code provided by the competition organizers.
 
 ## How to Run Locally
 1. Clone the repository.
